@@ -18,7 +18,8 @@ git clone <repository_url>
 cd <repository_folder>
 ```
 
-2. Install Node.js (if not already installed)
+2. Install Node.js (if not already installed):
+
     - Download and install from https://nodejs.org 
 
 3. Install dependencies
@@ -31,12 +32,12 @@ npm install express
 node index.js
  ```
 
-5. Open your browser
-    - Visit: http://localhost:8000 ```
+5. Open your browser:
+
+    - Visit: http://localhost:8000
 
 ### Routes Available
-
-Route Description:
+---
 - '/' --- Displays “Hello World!”
 - '/welcome/:name' --- Displays a personalized welcome message
 - '/about' --- Displays information about the author
@@ -45,9 +46,8 @@ Route Description:
 - '/chain' --- Demonstrates route chaining with multiple handlers
 - '/file' --- Sends and displays an HTML file from the /public folder
 
-
 ### Online Access
-
+---
 This project is also available on a virtual online server and can be accessed through the links below:
 
 - http://www.doc.gold.ac.uk/usr/354/
