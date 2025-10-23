@@ -5,9 +5,9 @@ A very small Node.js web application built using Express. This app demonstrates 
 ## Technologies Used
 
 - HTML – for structuring static web content (served via routes).
-- CSS – (optional) to style HTML pages if added in /public.
 - Node.js – JavaScript runtime for building the server.
 - Express.js – to manage routes and handle HTTP requests.
+- Router module - to break down application into smaller manageable chunks
 - Path module – to resolve and send HTML files safely.
 
 ## How to Install and Run Locally
@@ -19,7 +19,7 @@ cd <repository_folder>
 ```
 
 2. Install Node.js (if not already installed)
-``` Download and install from https://nodejs.org ```
+    - Download and install from https://nodejs.org 
 
 3. Install dependencies
 ``` 
@@ -32,7 +32,7 @@ node index.js
  ```
 
 5. Open your browser
-``` Visit: http://localhost:8000 ```
+    - Visit: http://localhost:8000 ```
 
 ### Routes Available
 
